@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "zeshuaro.vscode-python-poetry",
+    "ms-python.vscode-pylance",
+    "benspaulding.procfile",
+    "streetsidesoftware.code-spell-checker",
+    "gruntfuggly.todo-tree",
+    "aaron-bond.better-comments",
+    "kevinrose.vsc-python-indent",
+    "njpwerner.autodocstring"
+  ]
+}
