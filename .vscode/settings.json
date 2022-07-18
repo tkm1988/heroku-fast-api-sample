@@ -1,0 +1,153 @@
+{
+  "todo-tree.general.tagGroups": {
+    "BUG": ["BUGS", "bug"],
+    "TODO": ["TODOS", "ToDo", "ToDos"],
+    "FIXME": ["FIX", "FIXIT"],
+    "NOTE": ["Note"]
+  },
+  "todo-tree.general.tags": [
+    "BUG",
+    "BUGS",
+    "bug",
+    "bugs",
+    "HACK",
+    "FIXME",
+    "FIX",
+    "FIXIT",
+    "TODO",
+    "TODOS",
+    "ToDo",
+    "ToDos",
+    "XXX",
+    "WARNING",
+    "NOTE",
+    "Note"
+  ],
+
+  "todo-tree.highlights.defaultHighlight": {
+    "icon": "checklist",
+    "type": "text",
+    "fontWeight": "bold",
+    "iconColour": "#2C7CFF"
+  },
+  "todo-tree.highlights.customHighlight": {
+    "FIXME": {
+      "foreground": "green"
+    },
+    "NOTE": {
+      "foreground": "#C0C0C0"
+    },
+    "TODO": {
+      "foreground": "#FF8C00"
+    },
+    "WARNING": {
+      "icon": "alert",
+      "foreground": "red"
+    },
+    "BUG": {
+      "foreground": "#2C7CFF"
+    }
+  },
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "FIXME",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "color": "green"
+    },
+    {
+      "tag": "NOTE",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "color": "#C0C0C0"
+    },
+    {
+      "tag": "TODO",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "color": "#FF5F17"
+    },
+    {
+      "tag": "WARNING",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "color": "red"
+    },
+    {
+      "tag": "BUG",
+      "strikethrough": false,
+      "backgroundColor": "transparent",
+      "color": "#2C7CFF"
+    }
+  ],
+  "cSpell.words": [
+    "addopts",
+    "asgi",
+    "asyncio",
+    "autoflake",
+    "fastapi",
+    "filterwarnings",
+    "isort",
+    "loguru",
+    "mypy",
+    "numprocesses",
+    "pydantic",
+    "pytest",
+    "redoc",
+    "starlette",
+    "testpaths",
+    "uvicorn"
+  ],
+  "python.formatting.provider": "black",
+  "python.languageServer": "Pylance",
+  "python.linting.banditEnabled": true,
+  "python.linting.mypyEnabled": true,
+  "python.testing.pytestEnabled": true,
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "python.analysis.inlayHints.variableTypes": true
+}
